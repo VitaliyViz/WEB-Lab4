@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My ships</title>
+  <link rel="stylesheet" href="CSS/lab4.css">
+</head>
+<body>
+    <main class="wrap">
+        <header class="header">
+            <div class="header-logo">S</div>
+            <nav class="header-navigation">
+                <ul class="header-navigation-list">
+                    <li><a href="lab4.html">My ships</a></li>
+                    <li><a href="add_ship.html">Add ship</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="content">
+            <menu class="content-menu">
+                <input type="text" class="content-menu-search" placeholder="Search by name"/>
+                <button class="content-menu-button">Sort by Name</button>
+                <button class="content-menu-button">Calculate Total Weight</button>
+            </menu>
+
+            <div class="content-itemList"></div>
+            <div class="content-totalweight"></div>
+        </div>
+    </main>
+    <script src="data.js"></script>
+    <script src="lab4.js"></script>
+    <script src="edit_ship.js"></script>
+</body>
+</html>

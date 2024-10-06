@@ -1,0 +1,21 @@
+@import url("/CSS/components/header.css");
+@import url("/CSS/components/content.css");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrap {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    gap: 5%;
+    min-height: 100vh;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 1%;
+}
+button:hover {
+    cursor: pointer;
+}

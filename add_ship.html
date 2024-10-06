@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Ship</title>
+    <link rel="stylesheet" href="CSS/lab4.css">
+    <link rel="stylesheet" href="CSS/add_ship.css">
+</head>
+<body>
+    <main class="wrap">
+        <header class="header">
+            <div class="header-logo">S</div>
+            <nav class="header-navigation">
+                <ul class="header-navigation-list">
+                    <li><a href="lab4.html">My ships</a></li>
+                    <li><a href="add_ship.html">Add ship</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="content">
+            <content-form class="content-form">
+                <h2>Add New Ship</h2>
+                <form id="addShipForm">
+                    <label for="shipName">Ship Name:</label>
+                    <input type="text" id="shipName" name="shipName" placeholder="Type the ship name">
+                    <br>
+
+                    <label for="shipWeight">Ship Weight (tons):</label>
+                    <input type="number" id="shipWeight" name="shipWeight" required max="1000" placeholder="Type the ship weight">
+                    <br>
+
+                    <button type="submit">Add Ship</button>
+                </form>
+            </content-form>
+        </div>
+    </main>
+    <script src="data.js"></script>
+    <script src="add_ship.js"></script>
+</body>
+</html>

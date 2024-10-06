@@ -1,0 +1,38 @@
+@import url("/CSS/components/header.css");
+@import url("/CSS/components/content.css");
+@import url("/CSS/add_ship.css");
+
+.content-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2vh;
+}
+
+#addShipForm {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+#addShipForm button {
+    width: 20%;
+    height: 3vh;
+    border: black;
+    background-color: #458FF6;
+    color: #FFFFFF;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+}
+
+#addShipForm button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 3px 12px black;
+}
+#addShipForm input {
+    border-radius: 15px;
+    height: 3vh;
+    width: 20%;
+}
